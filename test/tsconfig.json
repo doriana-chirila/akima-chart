@@ -1,0 +1,26 @@
+{
+   "compilerOptions": {
+      "allowUnreachableCode": false,
+      "baseUrl": "src",
+      "lib": ["ES6", "DOM"],
+      "module": "ES6",
+      "moduleResolution": "node",
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "outDir": "tempBuild",
+      "paths": {
+         "function-curve-editor": ["../../dist/FunctionCurveEditor.d.ts"]
+      },
+      "removeComments": true,
+      "strictFunctionTypes": true,
+      "strictNullChecks": true,
+      "target": "ES2017"
+   },
+   "include": [
+      "src/**/*"
+   ]
+}
